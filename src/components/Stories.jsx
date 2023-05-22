@@ -9,7 +9,7 @@ export function Stories() {
         <div className="relative w-full h-280 rounded-8 overflow-hidden transition-transform duration-300 ease-in-out transform hover:scale-[1.01]">
           <img 
             className="w-full h-full object-cover aspect-video rounded-xl" 
-            src="/public/projectsIMG/parquevivo.png"
+            src="projectsIMG/parquevivo.png"
             alt="Imagem da memória" />
         </div>
         <p className="text-lg leading-relaxed text-gray-100">
@@ -25,7 +25,7 @@ export function Stories() {
         <div className="relative w-full h-280 rounded-8 overflow-hidden transition-transform duration-300 ease-in-out transform hover:scale-[1.01]">
           <img 
             className="w-full h-full object-cover aspect-video rounded-xl" 
-            src="/public/projectsIMG/newWork.png"
+            src="projectsIMG/newWork.png"
             alt="Imagem da memória" />
         </div>
       </div>
