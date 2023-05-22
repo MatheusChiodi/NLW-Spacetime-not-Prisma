@@ -19,7 +19,7 @@ const Home = () => {
           {/* Blur */}
           <div className="absolute right-0 top-1/2 h-[288px] w-[526px] -translate-y-1/2 translate-x-1/2 rounded-full bg-purple-700 opacity-50 blur-full" />
           {/* Stripes */}
-          <div className="absolute bottom-0 right-2 top-0 w-2 bg-stripes" />
+          <div className="hidden lg:block absolute bottom-0 right-2 top-0 w-2 bg-stripes" />
           <div className="flex flex-col justify-center items-center h-full mx-auto">
             <div className="flex flex-col items-center justify-center flex-grow">
               <Profile />
@@ -27,12 +27,12 @@ const Home = () => {
             </div>
           </div>
           <div className="absolute lg:hidden left-0 top-1/2 h-[288px] w-[526px] -translate-y-1/2 rounded-full bg-purple-700 opacity-50 blur-full" />
-          <div className="absolute lg:hidden bottom-0 left-2 top-0 w-2 bg-stripes" />
         </div>
 
         {/* Right */}
         <div className="animate-entering duration-700 ease-in-out flex max-h-screen flex-col overflow-y-scroll bg-[url(/public/background-stars.svg)] bg-cover">
           <Stories />
+          <div className="absolute lg:hidden bottom-0 left top-0 w-1 bg-stripes h-screen" />
         </div>
       </div>
     </>

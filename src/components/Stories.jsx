@@ -36,11 +36,18 @@ export function Stories() {
       image: "projectsIMG/webs2022.png",
       description: "Conclusão de 7 projetos personalizados de websites para clientes da FI Sistemas. Garantindo soluções adaptadas às necessidades específicas de cada cliente."
     },
+    {
+      id: '6',
+      date: "Maio de 2023",
+      title: "NLW Spacetime",
+      image: "projectsIMG/nlwspacetime.png",
+      description: "Conclusão do NLW Spacetime, um projeto de uma semana de duração, realizado pela Rocketseat, com o objetivo de criar uma cápsula do tempo."
+    },
   ]
 
 
   return (
-    <div className="flex flex-col gap-10 p-8">
+    <div className="flex flex-col gap-10 p-4">
       {memories.map((memory) => (
         <div key={memory.id} className="space-y-4 memory">
           <small className="-ml-8 flex items-center gap-2 text-sm text-gray-100 before:h-px before:w-5 before:bg-gray-50">
