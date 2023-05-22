@@ -25,3 +25,17 @@ body {
   background: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box,
     linear-gradient(260deg, #d39e33, #ed5636, #633bbc) border-box;
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 2s ease-in forwards;
+}
