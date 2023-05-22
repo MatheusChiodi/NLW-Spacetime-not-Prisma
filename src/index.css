@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: "Roboto", sans-serif;
+}
+
+.imgPerfil:nth-child(2) {
+  border: 4px solid transparent;
+  background: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box,
+    linear-gradient(260deg, #d39e33, #ed5636, #633bbc) border-box;
+}
+
+.memoryIMG{
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+
+  transition: transform 0.3s ease-in-out;
+}
+
+.memoryIMG:hover{
+  transform: scale(1.1);
+}
